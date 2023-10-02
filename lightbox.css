@@ -42,7 +42,29 @@
   width: 100%;
   max-height: 70vh;
 }
+.btnLeftlightbox,.btnRightlightbox{
+  cursor: pointer;
+border: none;
+position:absolute;
+top:0;
+height: 100%;
+width: 200px;
+background-color: #55555500;
+color: grey;
+font-size: 5rem;
+opacity: 0;
+}
+.btnLeftlightbox:hover,.btnRightlightbox:hover{
+opacity: 1;
+}
+.btnLeftlightbox{
+  left: 0;
+}
+.btnRightlightbox{
+  right: 0;
+  }
 .lightbox .lightbox-content label {
+
 }
 .lightbox .previewContainer {
   bottom: 0rem;
