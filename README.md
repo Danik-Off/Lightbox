@@ -27,7 +27,7 @@
 
 ## Использование
 
-1. В вашем HTML-коде создайте контейнер изображений с классом `lightbox-gallery`:
+В вашем HTML-коде создайте контейнер изображений с классом `lightbox-gallery`:
 
 ```html
 <div class="lightbox-gallery">
