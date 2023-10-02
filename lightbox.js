@@ -50,6 +50,15 @@
     closeButton.addEventListener("click", hideLightBox); // Cкрыть lightbox
     prevButton.addEventListener("click", prevPicture); //предыдущий кадр
     nextButton.addEventListener("click", nextPicture); //следующий кадр
+
+    document.addEventListener('keydown', function(event) {
+      if (event.code == 'ArrowRight') {
+        nextPicture();
+      }
+      if (event.code == 'ArrowLeft') {
+        prevPicture();
+      }
+    });
   };
 
   function onClickLightbox(e) {
